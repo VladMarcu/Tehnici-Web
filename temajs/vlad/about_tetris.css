@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.page-wrapper {
+    min-height: 100%;
+}
+
+nav {
+    width: 98.45%;
+    height: 100px;
+    background-color: black;
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 30%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 40px;
+    color:#fff;
+}
+
+ul li a.curent {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.paragraf {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    align-content: center;
+    margin-left: 4.5%;
+    margin-top: 10%;
+}
+
+.footer {
+    background:black;
+    color: white;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    line-height: 200px;
+}
+
+.menu{
+    width: 12.5rem;
+    height: 4rem;
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #aaa;
+    box-shadow: 2px 2px 2px #999;
+    border-radius: 0.2rem;
+    list-style: none;
+    position: fixed;
+}
+.menu.off{
+    top: -200%;
+    left: -200%;
+}
+.menu-item{
+    height: 2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0 1rem;
+    cursor: pointer;
+    display: block;
+}
+.menu-item:hover,
+.menu-item:active{
+    color: #000;
+    font-weight: 500;
+}

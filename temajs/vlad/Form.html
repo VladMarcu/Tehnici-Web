@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Form.css">
+    
+</head>
+<div class="container">
+    <div class="header">
+        <h2>Account creation</h2>
+    </div>
+    <form class = "form" id = "form" action="pregame.html">
+        <div class="form-control">
+            <label >Username</label>
+            <input type="text" placeholder="Exemple01" id="username">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+            <label >Email</label>
+            <input type="email" placeholder="Exemple@mail.com" id="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+            <label >Password</label>
+            <input type="password" placeholder="Password" id="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+            <label >Password check</label>
+            <input type="password" placeholder="Password check" id="password2">
+            <small>Error message</small>
+        </div>
+
+        <button id="btn" onclick="passvalues()">Submit</button>
+</form>
+</div>
+<script src="Form.js"></script>
+
+</html>
